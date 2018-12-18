@@ -1,0 +1,117 @@
+
+
+.login-page{
+	background-color: gray;
+}
+.login-form{
+	background-color: #E5E5E5;
+	border-width: 5px;
+	border-color: #BDBDBD;
+	border-style: solid; 
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.login-header{
+	background-color: #4A4A4A;
+	padding: 5px 0px 5px 30px;
+	color: #FFFFFF;
+	font-size: 22px;
+}
+.login-panel{
+	margin-top: 10%;
+}
+.login-info{
+	background-color: #EEE685;
+	margin-top: 2%;
+	padding: 5px;
+	padding-left: 30px;
+	color:gray;
+}
+.btn-right{
+	margin-left: 30%; 
+}
+.form-control:focus{
+	box-shadow: none;
+	outline: 0 none;
+	border-color: #4b92e3;
+}
+.form-control::-webkit-input-placeholder,
+.form-control::-moz-placeholder,
+.form-control::placeholder{color: #c4c4c4;}
+.form-control{
+	position: relative;
+	transition: all 0.3s ease 0s;
+}
+.form-horizontal{
+	padding: 10px;
+}
+
+
+
+.menu-nav{
+	height: 100px;
+	background-color: #ffffff;
+	border-bottom-width: 5px;
+	border-bottom-color: #ffffff;
+	border-bottom-style: solid; 
+	padding: 0px;
+}
+.menu{
+	z-index: 1;
+	margin-bottom: 25px;
+}
+.navbar-default{
+	background-color: #ffffff;
+}
+.dashboard-page{
+	background-color: #E5E5E5;
+}
+.dash-body{
+	background-color: #E5E5E5;
+	position: relative;
+	top: -30px;
+	border-width: 2px;
+	border-color: #ffffff;
+	border-style: solid; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+.nav-item{
+	margin-right: 25px;
+	color: #ffffff;
+}
+.nav-item:hover{
+	font-weight: bolder;
+	color: #ffffff;
+	
+}
+a.nav-link{
+	color: black;
+}
+.nav-dp{
+	border-radius: 50%;
+}
+
+.logo{
+	margin-right:10px;
+	
+}
+.orders{
+	color: green;
+	font-family: sans-serif;
+
+}
+.farm{
+	color: black;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.nav-icon{
+	margin-right: 10px;
+}
+
+.deliveryUpdate{
+	margin-top: 10px;
+	
+}

@@ -1,0 +1,20 @@
+ErrorDocument 404 /404.php
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://%
+{SERVER_NAME}/$1 [R,L]
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+
+<div class="container ">
+        <div class="col-xm-12 col-md-12">
+            <div class="box welcome">
+                <h4>welcome to our company <span style="color: #9ACD32"> FarmOrders </span></h4>
+                <h5>Here at farmorders we strive to achieve excellence in satisfying our customers by delivering farm products to their doorstep at reasonable and affordable prices, we also guarantee safe transaction and delivery to our  customers. We deliver anywhere in Nigeria, our goal is to supply farm products at affordable prices in bulk to places where they are not readily available in large quantities.</h5>
+            </div>
+        </div>
+    </div>

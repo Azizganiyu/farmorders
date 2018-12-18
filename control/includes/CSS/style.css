@@ -1,0 +1,74 @@
+.form-control:focus{
+	box-shadow: none;
+	outline: 0 none;
+	border-color: #4b92e3;
+}
+.form-control::-webkit-input-placeholder,
+.form-control::-moz-placeholder,
+.form-control::placeholder{color: #c4c4c4;}
+.form-control{
+	height: 50px;
+	width: 500px;
+	background:#fff;
+	border: 2px solid #d9d9d9;
+	box-shadow:none;
+	padding:0 20px 0 50px;
+	font-size: 16px;
+	color: #7f8291;
+	position: relative;
+	transition: all 0.3s ease 0s;
+}
+
+
+i{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	color: #c4c4c4;
+	text-align: center;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.form-horizontal{
+	padding: 10px;
+}
+.form-bg{
+	background: #fff;
+	
+}
+body{
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-color: #5C5C5C;
+}
+
+.login-panel{
+	margin:10% auto 10%;
+
+}
+
+.login-panel-head{
+	background-color: #2E2E2E;
+	border-radius: 2px;
+	color: #FFFFFF;
+	padding:20px 10px 20px 10px;
+	margin-bottom: 0px;
+}
+.form{
+	background-color: #F0F0F0;
+	margin-top: 0px;
+}
+
+.login-info{
+	background-color: #EEE685;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: gray;
+	width: 100%;
+	margin: 0px;
+}
+

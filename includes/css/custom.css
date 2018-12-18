@@ -1,0 +1,339 @@
+/** Your theme modifications here **/
+@font-face {
+	font-family: QuickSandBook;
+	src: url('../fonts/quicksand_book.otf');
+}
+@font-face {
+	font-family: GeosansLight;
+	src: url('../fonts/GeosansLight.ttf');
+}
+#all {	font-family: Arial, Helvetica, sans-serif;
+	font-size: .875em;
+	line-height: 1.6em;
+	color: #666;
+}
+h1 { font-family: "QuicksandBook", Arial, sans-serif} 
+p, h2, h3, h4, h5{ font-family:  Arial, sans-serif} 
+
+h1 {font-size: 34px;  padding: 0 0 20px; color: #000 }
+
+h2, h3 {margin: 20px 0; color: #000; font-weight: normal; text-transform:normal}
+
+h2 {font-size: 2em}
+
+h3 {font-size: 2em}
+
+h4 {font-size: 1.2em; font-weight: 700}
+
+.category-link{
+	color: black;
+}
+
+.thumbnail img{
+	width: inherit;
+	height:250px;
+}
+.filter{
+	margin-bottom: 20px;
+}
+@media only screen and (min-width: 768px){
+	#top{
+		background:  linear-gradient(45deg, #2B2B2B 60%, #9ACD32 40%);
+	}
+}
+@media only screen and (max-width: 767px){
+	#top{
+
+	background: #2B2B2B;
+}
+}
+
+#top,.offer{
+	padding: 0px;
+	margin:0px;
+}
+.navbar-btn{
+	margin:0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.list-group-item.active{
+	background: #9ACD32;
+	border-color:#9ACD32;
+}
+.label-primary{
+	background: #9ACD32;
+	border-color:#9ACD32;
+}
+.add-to-cart{
+	border-color:#CD0000;
+	background-color:#CD0000;
+	border-radius: 20px;
+}
+.form-control:focus{
+	border-color: #9ACD32;
+}
+.label-success{
+	border-color:#CD0000;
+	background-color:#CD0000;
+	border-radius: 10px;
+}
+.view{
+	background: transparent;
+	color: #9ACD32;
+	border-color: #9ACD32;
+}
+.search-result h4 a{
+	color:#9ACD32; text-decoration: underline;
+}
+.search-result h6:hover{
+	color:#9ACD32; text-decoration: underline;
+	cursor: default;
+}
+.search-result h4 a:hover{
+	color:#CD0000; text-decoration: blink;
+}
+.add-to-cart:hover,.add-to-cart:focus,.view:hover,.view:focus{
+	background-color:#9ACD32;
+	border-color:#9ACD32;
+}
+.top-menu{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.top-menu ul li.contact-btn{
+	background: #2B2B2B;
+}
+.top-menu ul li{
+	background: #CD0000;
+	padding: 5px;
+	border-radius: 5px;
+}
+.activ a{
+	background-color: #9ACD32;
+}
+.navbar-toggle-color{
+	background-color: #9ACD32;
+	border: unset;
+}
+.yamm{
+	margin-bottom: 0px;
+}
+#content,.content{
+	margin-top: 25px;
+}
+.img-responsive{
+	display: inline;
+}
+.latest-product{
+	width: 300px;
+	height: 150px
+}
+
+.latest-product img{
+	width: inherit;
+	height: inherit;
+	
+}
+.item{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+
+#mainImage img{
+	width: inherit;
+	height: 300px;
+}
+.qty-box{
+
+	width: 60px;
+	display: inline;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.view-btn{
+	margin: 2px auto ;
+}
+.main-featured-image{
+	margin-bottom: 30px;
+}
+button.cat{
+	margin-bottom: 10px;
+}
+ul.support{
+	background-color: #3c763d;
+}
+ul.support li a:hover{
+	background-color: #3c763d;
+}
+.product-ad{
+	height: 20em;
+	
+
+}
+
+.same-height{
+	
+	box-shadow: none;
+	border:none;
+	margin-bottom: 30px;
+}
+
+.box-middle{
+	background-color: white;
+	width: 40em;
+	height: 15em;
+	position: relative;
+	right: 80px;
+	top: 55px;
+	z-index: 1;
+	border:none;
+}
+.welcome{
+	background-color: transparent;
+	box-shadow: none;
+	border:none;
+}
+.welcome h4,h5{
+	text-align: center;
+}
+.welcome h4{
+	font-weight: bolder;
+}
+
+.welcome-button{
+	background-color: transparent;
+	box-shadow: none;
+	border:none;
+}
+
+.text{
+	margin-top: 15px;
+}
+.text h4 a{
+	color: #3B3B3B;
+	font-weight: bolder;
+}
+.text h6.description{
+	text-align: left;
+}
+.text h6.action a{
+	text-align: center;
+	color: #CD2626;
+}
+h3.product-head{
+	text-align: left;
+	
+	margin-left: 15px;
+}
+
+.ball{
+	background: gray;
+	display: inline-block;
+	padding: 20px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+.ball i{
+	font-size: 40px;
+	color: white;
+}
+.offer{
+	background: transparent;
+	
+}
+.offer-head{
+	text-align: left;
+	
+	margin-left: 15px;
+}
+.icon1{
+	background: #5F9EA0;
+}
+.icon2{
+	background: #3c763d;
+	color:#fff;
+}
+.icon3{
+	background: #CD2626;
+	color:#fff;
+}
+h4 a{
+	color: #3B3B3B;
+}
+.btn-outline{
+	background: transparent;
+	color: #CD2626;
+	margin: 10px;
+}
+.username{
+	color:white;
+	background: #3B3B3B;
+	display: inline-block;
+	padding: 5px;
+}
+.search-row{
+	margin-bottom: 30px;
+}
+.search-product-image{
+	height: 64px;
+	width: 64px;
+}
+.full{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.item{
+	background-image: url("../../img/main-slider.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.item h5.first{
+	color: #9ACD32;
+	line-height: 25px;
+}
+.item h5.second,h2{
+	color: white;
+	line-height: 15px;
+}
+.white{
+	background-color: white;
+	border-color: white;
+	color: #CD0000;
+	font-weight: bolder;
+}
+#advantages{
+	margin-bottom: 30px;
+}
+.bankDetails{
+	background-color: #9ACD32;
+}
+a:hover{
+	text-decoration: none;
+}
+featuredDescription{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.box-top-featured{
+	box-shadow: 1px 4px 4px rgba(0,0,0,.5);
+}
+.box-featured{
+	box-shadow: 1px 2px 4px rgba(0,0,0,.5);
+}
+.about-logo{
+	height:240px;
+	width:240px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+.outer-about-logo{
+	padding:15px;
+	background-color: #9ACD32;
+}
+.offer-body{
+        margin-bottom:15px;
+}
